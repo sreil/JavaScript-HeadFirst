@@ -6,4 +6,4 @@ var cadi {
 	passengers: 5,
 	converitble: false,
 	mileage: 12892
-}
+};
