@@ -1,0 +1,70 @@
+ch 5 notes
+
+An object is a collection of properties.
+
+?? To access a property, use dot notation: the
+name of the variable containing the object,
+then a period, then the name of the property.
+
+?? You can add new properties to an object
+at any time, by assigning a value to a new
+property name.
+
+?? You can also delete properties from objects,
+using the delete operator.
+
+?? Unlike variables that contain primitive
+values, like strings, numbers, and booleans,
+a variable can’t actually contain an object.
+Instead, it contains a reference to an object.
+We say that objects are “reference variables”.
+
+?? When you pass an object to a function, the
+function gets a copy of the reference to the
+object, not a copy of the object itself. So, if
+you change the value of one of the object’s
+properties, it changes the value in the original
+object.
+
+?? Object properties can contain functions.
+When a function is in an object, we call it a
+method.
+
+?? You call a method by using the dot
+notation: the object name, a period, and the
+property name of the method, followed by
+parentheses.
+
+?? A method is just like a function except that it
+is in an object.
+
+?? You can pass arguments to methods, just like
+you can to regular functions.
+
+?? When you call an object’s method, the
+keyword this refers to the object whose
+method you are calling.
+
+?? To access an object’s properties in an
+object’s method, you must use dot notation,
+with this in place of the object’s name.
+
+?? In object-oriented programming, we think in
+terms of objects rather than procedures.
+
+?? An object has both state and behavior. State
+can affect behavior, and behavior can affect
+state.
+
+?? Objects encapsulate, or hide, the complexity
+of the state and behavior in that object.
+
+?? A well-designed object has methods that
+abstract the details of how to get work done
+with the object, so you don’t have to worry
+about it.
+
+?? Along with the objects you create, JavaScript
+has many built-in objects that you can use.
+We’ll be using many of these built-in objects
+throughout the rest of the book.
