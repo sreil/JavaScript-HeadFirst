@@ -33,4 +33,11 @@ var fiat = {
 	}
 };
 
+fiat.start();
 fiat.drive();
+fiat.addFuel(2);
+fiat.start();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.stop();
