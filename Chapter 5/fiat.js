@@ -16,10 +16,17 @@ var fiat = {
 	},
 	drive: function() {
 		if(this.started) {
-		alert("Zoom zoom!");
+			if(this.fuel > 0) {
+				alert(this.make + " " + this.model + " goes zoom zoom!");
+				this.fuel = this.fuel -1;
+	
+	} else {
+		alert("uh oh, out of fuel.");
+		this.stop();
+		}
 	} else {
 		alert("You need to start the engine first.");
-		}
+	}
 	},
 	addFuel: function(amount) {
 		this.fuel = this.fuel + amount;
