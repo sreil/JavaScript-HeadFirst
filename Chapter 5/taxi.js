@@ -1,4 +1,4 @@
-var taxi {
+var taxi = {
 	make: "Webville Motors",
 	model: "Taxi",
 	year: 1955,

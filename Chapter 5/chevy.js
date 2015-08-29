@@ -1,4 +1,4 @@
-var chevy {
+var chevy = {
 	make: "Chevy",
 	model: "Bel Air",
 	year: 1957,
