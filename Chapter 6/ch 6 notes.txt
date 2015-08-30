@@ -1,0 +1,57 @@
+The Document Object Model, or DOM, is
+the browser’s internal representation of your
+web page.
+?
+The browser creates the DOM for your page
+as it loads and parses the HTML.
+??You get access to the DOM in your
+JavaScript code with the document object.
+??
+The document object has properties and
+methods you can use to access and modify
+the DOM.
+??
+The document.getElementById method
+grabs an element from the DOM using its id.
+??
+The document.getElementById method
+returns an element object that represents an
+element in your page.
+??
+An element object has properties and
+methods you can use to read an element’s
+content, and change it.
+??
+The innerHTML property holds the text
+content, as well as all nested HTML content,
+of an element.
+??
+You can modify the content of an element by
+changing the value of its innerHTML property.
+??
+When you modify an element by changing its
+innerHTML property, you see the change in
+your web page immediately.
+??
+You can get the value of an element’s
+attributes using the getAttribute method.
+??
+You can set the value of an element’s
+attributes using the setAttribute method.
+??
+If you put your code in a <script> element in
+the <head> of your page, you need to make
+sure you don’t try to modify the DOM until the
+page is fully loaded.
+??
+You can use the window object’s onload
+property to set an event handler, or callback,
+function for the load event.
+??
+The event handler for the window’s onload
+property will be called as soon as the page is
+fully loaded.
+??
+There are many different kinds of events we
+can handle in JavaScript with event handler
+functions.
