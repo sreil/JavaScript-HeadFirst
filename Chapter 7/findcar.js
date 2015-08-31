@@ -24,7 +24,7 @@ var fiat2 = {
 };
 
 var lot = [chevy, taxi, fiat1, fiat2];
-var loc1 = findCarInLot(fiat2);
-var loc2 = findCarInLot(taxi);
-var loc3 = findCarInLot(chevy);
-var loc4 = findCarInLot(fiat1);
+var loc1 = findCarInLot(fiat2); //3
+var loc2 = findCarInLot(taxi); //1
+var loc3 = findCarInLot(chevy); //0
+var loc4 = findCarInLot(fiat1); //2
