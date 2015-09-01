@@ -1,0 +1,64 @@
+Arrays are a data structure for ordered
+data.
+
+An array holds a set of items, each with its
+own index.
+
+Arrays use a zero-based index, where the
+first item is at index zero.
+
+All arrays have a length property, which
+holds a number representing the number
+of items in the array.
+
+You can access any item using its index.
+For example, use myArray[1] to access
+item one (the second item in the array).
+
+If an item doesn’t exist, trying to access it
+will result in a value of undefined.
+
+Assigning a value to an existing item will
+change its value.
+
+Assigning a value to an item that doesn’t
+exist in the array will create a new item in
+the array.
+
+You can use a value of any type for an
+array item.
+
+Not all the values in an array need to be
+the same type.
+
+Use the array literal notation to create a
+new array.
+
+You can create an empty array with
+var myArray = [ ];
+
+The for loop is commonly used to iterate
+through arrays.
+
+A for loop packages up variable
+initialization, a conditional test, and
+variable increment into one statement.
+
+The while loop is most often used when
+you don’t know how many times you
+need to loop, and you’re looping until a
+condition is met. The for loop is most often
+used when you know the number of times
+the loop needs to execute.
+
+Sparse arrays occur when there are
+undefined items in the middle of an array.
+
+You can increment a variable by one with
+the post-increment operator ++.
+
+You can decrement a variable by one with
+the post-decrement operator --.
+
+You can add a new value to an array using
+push.
