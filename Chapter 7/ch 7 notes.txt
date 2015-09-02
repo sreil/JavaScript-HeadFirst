@@ -1,0 +1,60 @@
+There are two groups of types in JavaScript:
+primitives and objects. Any value that isn’t a
+primitive type is an object.
+
+The primitives are: numbers, strings,
+booleans, null and undefined. Everything else
+is an object.
+
+undefined means that a variable (or property
+or array item) hasn’t yet been initialized to a
+value.
+
+null means “no object”.
+
+“NaN” stands for “Not a Number”, although
+a better way to think of NaN is as a number
+that can’t be represented in JavaScript. The
+type of NaN is number.
+
+NaN never equals any other value, including
+itself, so to test for NaN use the function
+isNaN.
+
+Test two values for equality using == or ===.
+
+If two operands have different types, the
+equality operator (==) will try to convert one
+of the operands into another type before
+testing for equality.
+
+If two operands have different types, the strict
+equality operator (===) returns false.
+
+You can use === if you want to be sure
+no type conversion happens, however,
+sometimes the type conversion of == can
+come in handy.
+
+Type conversion is also used with other
+operators, like the arithmetic operators and
+string concatenation.
+
+JavaScript has five falsey values: undefined,
+null, 0, “” (the empty string) and false. All
+other values are truthy.
+
+Strings sometimes behave like objects. If
+you use a property or method on a primitive
+string, JavaScript will convert the string to
+an object temporarily, use the property, and
+then convert it back to a primitive string. This
+happens behind the scenes so you don’t
+have to think about it.
+
+The string has many methods that are useful
+for string manipulation.
+
+Two objects are equal only if the variables
+containing the object references point to the
+same object.
