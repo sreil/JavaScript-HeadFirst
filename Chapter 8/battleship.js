@@ -17,12 +17,16 @@ ships: [{ locations: ["06", "16", "26"], hits: ["", "", ""] },
 	 			if(index >= 0)
 	 			{
 	 				ship.hits[index] = "hit";
+	 				if(this.isSunk(ship)) {
+	 					this.shipsSunk++;
+	 				}
 	 				return true;
 	 			}
 	 		}
 	 		return false;
 	 	}
 	 };
+
 var view {
 	displayMessage: function(msg)
 	{
